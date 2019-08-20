@@ -1,0 +1,47 @@
+/* [DOES NOT MATTER] */
+html, body {
+  font-family: arial;
+  margin: 25px;
+  padding: 0;
+
+}
+
+h2 {
+  font-size: 1.4em;
+  padding: 0;
+  margin: 5px 0;
+}
+/* Animate the bar*/
+  .verticalbar {
+  transition: height 6s;
+}
+
+.verticalcell {
+  display:table-cell;
+  vertical-align: bottom;
+  color: #fdd;
+  text-align: center;
+}
+
+/* VerticalBar Graph display */
+#BVertical {
+  display: table;
+  width: 100%;
+  min-width: 320px;
+  max-width: 500px;
+  height: 300px;
+  border: 0.5px solid #333;
+  
+/* background Crafted */
+  background: repeating-linear-gradient(
+    to bottom,
+	#aaa 1px,
+	#bbb 1px,
+    #ccc 1px,
+    #ddd 2px,
+    #eee 2px,
+    #fff 10%
+  );
+}
+
+
