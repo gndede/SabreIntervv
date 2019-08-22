@@ -6,7 +6,7 @@ README
 THIS TOOL CHECK IF A STRING OF WORD or CHARACETRS IS A PANLINDROME OR NOT USING VANILLA JAVASCRIPT
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
-ONLINE 47 to Line 51 we manually load the program with words which are either Palindrome, not Palindrome or blank space.
+ONLINE 54 to Line 69 we manually load the program with words which are either Palindrome, not Palindrome or blank space.
 When the program is run, it is able to determine is the word is 
 
 a) Blank Space
