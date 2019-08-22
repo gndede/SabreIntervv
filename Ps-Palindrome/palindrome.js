@@ -1,13 +1,10 @@
-//JavaScript function that checks a palindrome or not? 
+// Write a JavaScript function that checks whether a passed string is palindrome or not? 
 
 function CheckPalindrome(StringEntry)
 {
 // convert string into lower case
-   var CharacterString = StringEntry.replace(/[^a-zA-Z0-9]+/g,'')..toLowerCase();
-    
+   var CharacterString = StringEntry.toLowerCase().replace(/[^a-zA-Z0-9]+/g,'');
 	var StringCount = 0;
-	
-	return StringEntry == StringEntry.split('').reverse().join('');
 
 // see if the string is empty
 	if(CharacterString === "") 
@@ -26,9 +23,7 @@ function CheckPalindrome(StringEntry)
 		if (CharacterString.length === 1) 
 		{
 			console.log("Found Palindrome." + CharacterString);
-			
 			return true;
-			
 		} else {
 
 //If the string's length is odd number then we ignore the middle character
@@ -52,18 +47,20 @@ function CheckPalindrome(StringEntry)
 			console.log("Found Palindrome.");
 			return true;
 }
-
-
-//Test cases with examples
+//Test cases - Fee free to change these words to anything of your choosing
 console.log('');console.log('');
-console.log('------------------------');
+console.log('-----------Not Palindromes------');
 CheckPalindrome('');
-CheckPalindrome('madam');
-CheckPalindrome('nurses run');
+CheckPalindrome('George');
 CheckPalindrome('fox');
+console.log('-------------------------');
+console.log('');
+
+console.log('-----------Palindromes----------');
 CheckPalindrome('A man, a plan, a canal. Panama');
 CheckPalindrome('nurses run');
 CheckPalindrome('My age is 0, 0 si ega ym');
 CheckPalindrome('racecar');
-CheckPalindrome('racecar');
+CheckPalindrome('nurses run');
+CheckPalindrome('madam');
 console.log('------------------------');
